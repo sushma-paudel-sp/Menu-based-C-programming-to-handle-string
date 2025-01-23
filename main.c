@@ -21,7 +21,7 @@ int main()
 	check(n);
 	return 0;
 }
-
+//calling this function will show the menu
 void menu(void)
 {
 	printf("\t the menu is:\n");
@@ -35,16 +35,16 @@ int check(int m)
 {
 	switch(m)
 	{
-		case 1:
+		case 1: //repeat message the number of times the user specify
 			repeat(message);
 			break;
-			case 2:
+			case 2: //this will reverse the message
 				reverse(message);
 				break;
-				case 3:
+				case 3: //this is create all uppercase for message
 					capital(message);
 					break;
-					case 4:
+					case 4: 
 						ladder(message);
 						break;
 						case 5:
