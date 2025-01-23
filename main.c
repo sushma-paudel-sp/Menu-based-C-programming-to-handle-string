@@ -10,9 +10,12 @@ int n;
 char message[1000];
 int main()
 {
+	//call menu list from bottom function
 	menu();
+	//ask user to enter their string message
 	printf("\n\n\t enter your message\n");
 	gets(message);
+	//let user choose the activity to perform in the string
 	printf("\n\t type the menu number:");
 	scanf("%d",&n);
 	check(n);
